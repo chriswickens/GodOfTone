@@ -1,0 +1,137 @@
+/*
+    style.css for index.html titled "Why the Mesa/Boogie JP-2C Shreds"
+    Purpose: Major Assignment 1
+    PROG1245-22f-Sec5
+    
+    Revision History:
+        Chris Wickens, 2022.10.12: Created
+        Chris Wickens, 2022.10.14: Edited
+*/
+
+body {
+    /* Width defined in HTML body */
+    align-content: center;
+    border: 10px #411a17 groove;
+    margin: 10px auto;
+    color: #f0f8ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    background: #000000;
+    background: linear-gradient(180deg, #191762 0%, #000000 100%); 
+}
+
+a {
+    /* Little under/overline for the links */
+    text-decoration: underline overline;
+}
+
+/* Get the header in place and sized */
+header {
+    height: 132px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Float the image to the LEFT side of the header */
+header img {
+    clear: both;
+    position: relative;
+    float: left;
+    top: 35px;
+    box-shadow: 2px 2px #636363;
+}
+
+/* Float the h1 header to the right */
+header h1 {
+    position: relative;
+    float: right;
+    top: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px #636363;
+}
+
+/* Getting the nav in place, gradient background */
+nav { 
+    clear: both;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background: linear-gradient(180deg, #94bbe9 0%, #151a21 20%, #000000 77%, #94bbe9 100%); 
+}
+
+/* Changes to nav links only */
+nav a {
+    padding: 0px 30px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #4e69ff;
+}
+
+/* Different color for hovering in nav on links*/
+nav a:hover {
+    color: #ffffff00;
+    text-shadow: 1px 1px #808080;
+}
+
+/* Get the main setup, clear, position relative, floating right */
+main {
+    clear:both;
+    position: relative;
+    float: right;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #234999fb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    width: 100%;
+}
+
+/* Some colors for the main links for something different*/
+main a{
+    color: #ffc353;
+}
+
+main a:hover{
+    color: #f0f8ff
+
+}
+
+/* aside relative, floating left */
+aside {
+    position: relative; 
+    float: left; 
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+aside h2 {
+    color: #94bbe9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+aside ul {
+    list-style: circle;
+    height: 105px;
+    padding-top: 10px;
+    background: #94bbe9;
+    background: linear-gradient(180deg, #4999fb 0%, #000000 100%, #347ed3 50%); 
+}
+
+/* Footer cleared */
+footer {
+    clear: both;
+    margin: 10px;
+    border-top: 2px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
